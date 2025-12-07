@@ -1,0 +1,13 @@
+#node
+node_modules/
+package-lock.json
+
+#eviromennt
+.env
+
+#ide
+.vscode/
+
+#SO
+.DS_Store
+Thumbs.db
