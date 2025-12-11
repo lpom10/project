@@ -8,8 +8,7 @@
   "main": "index.ts",
   "scripts": {
     "dev": "tsx watch src/index.ts",
-    "start": "node src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -26,9 +25,18 @@
   "devDependencies": {
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.6",
-    "@types/node": "^24.10.1",
+    "@types/node": "^24.10.3",
     "nodemon": "^3.1.11",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lpom10/project.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/lpom10/project/issues"
+  },
+  "homepage": "https://github.com/lpom10/project#readme"
 }

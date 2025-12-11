@@ -7,16 +7,16 @@ export const CATEGORIAS_PRODUCTOS = [
 
 export type CategoriaProducto = typeof CATEGORIAS_PRODUCTOS[number];
 
-export interface Producto{
+export interface Producto {
     id: number;
-    nommbre: string;
+    nombre: string;
     descripcion: string;
     categoria: CategoriaProducto;
     precio: number;
     stock: number;
     activo: boolean;
-    fechaCreacion: Date;
-    fechaActualizacion: Date;
+    createdAt: Date;
+    updatedAt: Date;
 
 }
 
